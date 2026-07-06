@@ -2,14 +2,17 @@ package com.api.tests;
 
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
-
+import com.api.utils.ConfigManager;
+import static com.api.utils.ConfigManager.*;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
 import io.restassured.module.jsv.JsonSchemaValidator;
-
 import static io.restassured.RestAssured.*;
+import java.io.IOException;
 
-public class UserDetailsAPITest {
+
+public class UserDetailsAPITest  {
+	
 	
 	String token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZmlyc3RfbmFtZSI6ImZkIiwibGFzdF9uYW1lIjoiZmQiLCJsb2dpbl9pZCI6ImlhbWZkIiwibW9iaWxlX251bWJlciI6Ij"
 			+ "g4OTk3NzY2NTUiLCJlbWFpbF9pZCI6Im1hcmtAZ21haWwuY29tIiwicGFzc3dvcmQiOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJlc2V0X3Bhc3N3b3JkX2RhdGUiOm51b"
@@ -20,11 +23,12 @@ public class UserDetailsAPITest {
 	
 	Header authHeader = new Header("Authorization",token);
 	
+	
 	@Test
 	public void userDetailsAPITest() {
 		
 		given().
-		baseUri("http://64.227.160.186:9000/v1").
+		baseUri(ConfigManager.getProperty("BASE_URI")).
 		header(authHeader).
 		accept(ContentType.JSON)
 		.when().
@@ -35,9 +39,7 @@ public class UserDetailsAPITest {
 		time(Matchers.lessThan(1000L));
 		
 		
-		
-		
-		
+			
 	}
 
 }
