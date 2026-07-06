@@ -28,24 +28,29 @@ private ConfigManager() {
 
 	static {
 		
-		env= System.getProperty("env");
+		env= System.getProperty("env","qa");
+		env= env.toLowerCase().trim();
 		
 		switch(env) {
 		
-		case "dev":{
-			path="config/config.dev.properties";
-		}
+	//case "dev":{
+		//	path="config/config.dev.properties";
+		//	break;
+	//	}
+	
 		
-		case "qa":{
-			path="config/config.qa.properties";
-		}
+	    case "dev"->path="config/config.dev.properties";
 		
-		case "uat":{
-			path="config/config.uat.properties";
-		}
-		default:
+	//this comes from java-14
+		
+		case "qa"->	path="config/config.qa.properties";
 			
-			path="config/config.qa.properties";
+		
+		
+		case "uat"->path="config/config.uat.properties";
+			
+		
+		default->path="config/config.qa.properties";
 		}
 		
 		
