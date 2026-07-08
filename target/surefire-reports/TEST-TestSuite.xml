@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.958" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.214" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\shashank\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\shashank\AppData\Local\Temp\surefire12275702404991808005\surefirebooter-20260706125654346_3.jar C:\Users\shashank\AppData\Local\Temp\surefire12275702404991808005 2026-07-06T12-56-54_235-jvmRun1 surefire-20260706125654346_1tmp surefire_0-20260706125654346_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\shashank\AppData\Local\Temp\surefire5553099678629904360\surefirebooter-20260708124520972_3.jar C:\Users\shashank\AppData\Local\Temp\surefire5553099678629904360 2026-07-08T12-45-20_632-jvmRun1 surefire-20260708124520972_1tmp surefire_0-20260708124520972_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\shashank\eclipse-workspace\API Testing_Rest\PhoenixRestAssuredFramework\target\test-classes;C:\Users\shashank\eclipse-workspace\API Testing_Rest\PhoenixRestAssuredFramework\target\classes;C:\Users\shashank\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\shashank\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\shashank\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\shashank\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shashank\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shashank\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shashank\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shashank\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shashank\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shashank\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shashank\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\shashank\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\shashank\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\shashank\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\shashank\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\shashank\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\shashank\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\shashank\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\shashank\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\shashank\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\shashank\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\shashank\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\shashank\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\shashank\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shashank\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\shashank\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\shashank\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\shashank\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shashank\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\shashank\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\shashank\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\shashank\.m2\repository\io\rest-assured\spring-mock-mvc\5.5.5\spring-mock-mvc-5.5.5.jar;C:\Users\shashank\.m2\repository\io\rest-assured\spring-commons\5.5.5\spring-commons-5.5.5.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-test\5.1.13.RELEASE\spring-test-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-core\5.1.13.RELEASE\spring-core-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-jcl\5.1.13.RELEASE\spring-jcl-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-webmvc\5.1.13.RELEASE\spring-webmvc-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-aop\5.1.13.RELEASE\spring-aop-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-beans\5.1.13.RELEASE\spring-beans-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-expression\5.1.13.RELEASE\spring-expression-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-web\5.1.13.RELEASE\spring-web-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\io\rest-assured\spring-web-test-client\5.5.5\spring-web-test-client-5.5.5.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-context\5.1.13.RELEASE\spring-context-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\synchronoss\cloud\nio-multipart-parser\1.1.0\nio-multipart-parser-1.1.0.jar;C:\Users\shashank\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\shashank\.m2\repository\org\synchronoss\cloud\nio-stream-storage\1.1.3\nio-stream-storage-1.1.3.jar;C:\Users\shashank\.m2\repository\io\rest-assured\scala-support\5.5.5\scala-support-5.5.5.jar;C:\Users\shashank\.m2\repository\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar;C:\Users\shashank\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\shashank\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\shashank\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\shashank\.m2\repository\io\rest-assured\kotlin-extensions\5.5.5\kotlin-extensions-5.5.5.jar;C:\Users\shashank\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\2.1.21\kotlin-stdlib-jdk8-2.1.21.jar;C:\Users\shashank\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\2.1.21\kotlin-stdlib-2.1.21.jar;C:\Users\shashank\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\shashank\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\2.1.21\kotlin-stdlib-jdk7-2.1.21.jar;C:\Users\shashank\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\shashank\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\shashank\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\shashank\AppData\Local\Temp\surefire12275702404991808005\surefirebooter-20260706125654346_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shashank\AppData\Local\Temp\surefire5553099678629904360\surefirebooter-20260708124520972_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+9-LTS"/>
@@ -49,7 +49,6 @@
     <property name="user.dir" value="C:\Users\shashank\eclipse-workspace\API Testing_Rest\PhoenixRestAssuredFramework"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="env" value="dev"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Users\shashank\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/shashank/Downloads/eclipse-java-2024-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530/jre/bin/server;C:/Users/shashank/Downloads/eclipse-java-2024-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530/jre/bin;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\shashank\Downloads\apache-maven-3.9.9\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\nodejs\;C:\Users\shashank\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;;C:\Users\shashank\AppData\Roaming\npm;C:\Users\shashank\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shashank\AppData\Local\GitHubDesktop\bin;C:\Users\shashank\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse;;."/>
@@ -60,66 +59,75 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginAPITest" classname="com.api.tests.LoginAPITest" time="2.558">
-    <failure message="1 expectation failed.&#10;Expected response time was not a value less than &lt;1000L&gt; milliseconds, was 1456 milliseconds (1456 milliseconds)." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected response time was not a value less than <1000L> milliseconds, was 1456 milliseconds (1456 milliseconds).
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.time(ResponseSpecificationImpl.groovy:127)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.time(ValidatableResponseOptionsImpl.java:409)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.time(ValidatableResponseOptionsImpl.java:405)
-	at com.api.tests.LoginAPITest.loginAPITest(LoginAPITest.java:38)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="countAPITest_MissingAuthToken" classname="com.api.tests.CountAPITest" time="0.608">
+    <system-out><![CDATA[Headers:		Accept=*/*
+Body:			<none>
+Request URI:	http://64.227.160.186:9000/v1/dashboard/count
+HTTP/1.1 401 Unauthorized
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Content-Length: 17
+ETag: W/"11-FLPMxCfH56IlIYLRaOTETEMIwHM"
+Vary: Accept-Encoding
+Date: Wed, 08 Jul 2026 07:15:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<html>
+  <body>401: Unauthorized</body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCountAPIResponse" classname="com.api.tests.CountAPITest" time="0.55">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 242
+ETag: W/"f2-nbwuHcNpmowYDD9iHoBdD3rhjRU"
+Vary: Accept-Encoding
+Date: Wed, 08 Jul 2026 07:15:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "message": "Success",
+    "data": [
+        {
+            "label": "Pending for delivery",
+            "key": "pending_for_delivery",
+            "count": 0
+        },
+        {
+            "label": "Created today",
+            "key": "created_today",
+            "count": 398
+        },
+        {
+            "label": "Pending for FST assignment",
+            "key": "pending_fst_assignment",
+            "count": 0
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginAPITest" classname="com.api.tests.LoginAPITest" time="0.153">
     <system-out><![CDATA[Body:
 {
     "username": "iamfd",
@@ -139,25 +147,656 @@ X-XSS-Protection: 1; mode=block
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 690
-ETag: W/"2b2-CYlsicw3Wcq3dGJsbvbXkq5fzwQ"
+ETag: W/"2b2-cM5nrtJO7ccnctn/aWVwXx3sZww"
 Vary: Accept-Encoding
-Date: Mon, 06 Jul 2026 07:26:55 GMT
+Date: Wed, 08 Jul 2026 07:15:27 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
     "message": "Success",
     "data": {
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZmlyc3RfbmFtZSI6ImZkIiwibGFzdF9uYW1lIjoiZmQiLCJsb2dpbl9pZCI6ImlhbWZkIiwibW9iaWxlX251bWJlciI6Ijg4OTk3NzY2NTUiLCJlbWFpbF9pZCI6Im1hcmtAZ21haWwuY29tIiwicGFzc3dvcmQiOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJlc2V0X3Bhc3N3b3JkX2RhdGUiOm51bGwsImxvY2tfc3RhdHVzIjowLCJpc19hY3RpdmUiOjEsIm1zdF9yb2xlX2lkIjo1LCJtc3Rfc2VydmljZV9sb2NhdGlvbl9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDNUMDg6MDY6MjMuMDAwWiIsIm1vZGlmaWVkX2F0IjoiMjAyMS0xMS0wM1QwODowNjoyMy4wMDBaIiwicm9sZV9uYW1lIjoiRnJvbnREZXNrIiwic2VydmljZV9sb2NhdGlvbiI6IlNlcnZpY2UgQ2VudGVyIEEiLCJpYXQiOjE3ODMzMjI4MTV9.e-qptlUA7DphRrK7KTyynAsQFS_PEx-HsNmUYergato"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZmlyc3RfbmFtZSI6ImZkIiwibGFzdF9uYW1lIjoiZmQiLCJsb2dpbl9pZCI6ImlhbWZkIiwibW9iaWxlX251bWJlciI6Ijg4OTk3NzY2NTUiLCJlbWFpbF9pZCI6Im1hcmtAZ21haWwuY29tIiwicGFzc3dvcmQiOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJlc2V0X3Bhc3N3b3JkX2RhdGUiOm51bGwsImxvY2tfc3RhdHVzIjowLCJpc19hY3RpdmUiOjEsIm1zdF9yb2xlX2lkIjo1LCJtc3Rfc2VydmljZV9sb2NhdGlvbl9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDNUMDg6MDY6MjMuMDAwWiIsIm1vZGlmaWVkX2F0IjoiMjAyMS0xMS0wM1QwODowNjoyMy4wMDBaIiwicm9sZV9uYW1lIjoiRnJvbnREZXNrIiwic2VydmljZV9sb2NhdGlvbiI6IlNlcnZpY2UgQ2VudGVyIEEiLCJpYXQiOjE3ODM0OTQ5Mjd9.OXvyzP7_hyQC2oDtEXFPKovodj56PZrGlz5zc6jsWbQ"
     }
 }
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
   </testcase>
-  <testcase name="userDetailsAPITest" classname="com.api.tests.UserDetailsAPITest" time="0.075">
+  <testcase name="invalidTokenMasterAPI" classname="com.api.tests.MasterAPITest" time="0.064">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://64.227.160.186:9000/v1/master
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=
+				Accept=*/*
+				Content-Type=; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Content-Length: 17
+ETag: W/"11-FLPMxCfH56IlIYLRaOTETEMIwHM"
+Vary: Accept-Encoding
+Date: Wed, 08 Jul 2026 07:15:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<html>
+  <body>401: Unauthorized</body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="masterAPITest" classname="com.api.tests.MasterAPITest" time="0.442">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://64.227.160.186:9000/v1/master
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZmlyc3RfbmFtZSI6ImZkIiwibGFzdF9uYW1lIjoiZmQiLCJsb2dpbl9pZCI6ImlhbWZkIiwibW9iaWxlX251bWJlciI6Ijg4OTk3NzY2NTUiLCJlbWFpbF9pZCI6Im1hcmtAZ21haWwuY29tIiwicGFzc3dvcmQiOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJlc2V0X3Bhc3N3b3JkX2RhdGUiOm51bGwsImxvY2tfc3RhdHVzIjowLCJpc19hY3RpdmUiOjEsIm1zdF9yb2xlX2lkIjo1LCJtc3Rfc2VydmljZV9sb2NhdGlvbl9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDNUMDg6MDY6MjMuMDAwWiIsIm1vZGlmaWVkX2F0IjoiMjAyMS0xMS0wM1QwODowNjoyMy4wMDBaIiwicm9sZV9uYW1lIjoiRnJvbnREZXNrIiwic2VydmljZV9sb2NhdGlvbiI6IlNlcnZpY2UgQ2VudGVyIEEiLCJpYXQiOjE3ODM0OTQ5Mjd9.OXvyzP7_hyQC2oDtEXFPKovodj56PZrGlz5zc6jsWbQ
+				Accept=*/*
+				Content-Type=; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+ETag: W/"2a1c-v2lPE1pRCSNwLh+/V8ccxPYHAHM"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Wed, 08 Jul 2026 07:15:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{
+    "message": "Success",
+    "data": {
+        "mst_oem": [
+            {
+                "id": 1,
+                "name": "Google",
+                "code": "GL",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:24:17.000Z",
+                "modified_at": "2021-10-26T08:24:17.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Apple",
+                "code": "APL",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:24:17.000Z",
+                "modified_at": "2021-10-26T08:24:17.000Z"
+            }
+        ],
+        "mst_model": [
+            {
+                "id": 1,
+                "name": "Nexus 2 blue",
+                "code": "NX2BL",
+                "mst_product_id": 1,
+                "is_active": 1,
+                "created_at": "2021-10-29T19:28:00.000Z",
+                "modified_at": "2021-10-29T19:28:00.000Z"
+            },
+            {
+                "id": 2,
+                "name": "gallexy",
+                "code": "gl",
+                "mst_product_id": 1,
+                "is_active": 1,
+                "created_at": "2022-06-10T07:18:03.000Z",
+                "modified_at": "2022-06-10T07:18:03.000Z"
+            },
+            {
+                "id": 3,
+                "name": "Iphone 11",
+                "code": "ip11",
+                "mst_product_id": 3,
+                "is_active": 1,
+                "created_at": "2022-08-18T16:59:27.000Z",
+                "modified_at": "2022-08-18T17:00:31.000Z"
+            }
+        ],
+        "mst_action_status": [
+            {
+                "id": 1,
+                "name": "Job Creation",
+                "code": "JBC",
+                "description": "Job Creation",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Pending For Job Assignment",
+                "code": "PJFA",
+                "description": "Pending For Job Assignment",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 3,
+                "name": "Pending For Repair",
+                "code": "PFR",
+                "description": "Pending For Repair",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 4,
+                "name": "Pending For QC",
+                "code": "PFQC",
+                "description": "Pending For QC",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 5,
+                "name": "Pending for Delivery",
+                "code": "PDL",
+                "description": "Pending for Delivery",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-12-20T08:00:39.000Z"
+            },
+            {
+                "id": 6,
+                "name": "Delivered to customer",
+                "code": "DC",
+                "description": "Delivered to customer",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-12-20T08:01:48.000Z"
+            },
+            {
+                "id": 7,
+                "name": "QC Rejected",
+                "code": "QCR",
+                "description": "QC Rejected",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 8,
+                "name": "Quatation Raised",
+                "code": "QR",
+                "description": "Quatation Raised",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 9,
+                "name": "Pending For Payment",
+                "code": "PFP",
+                "description": "Pending For Payment",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 10,
+                "name": "Payment Is Done",
+                "code": "PD",
+                "description": "Payment Is Done",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 11,
+                "name": "Job Closed Successfully",
+                "code": "JC",
+                "description": "Job Closed Successfully",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 12,
+                "name": "Assigned to FST - Inbound",
+                "code": "AFI",
+                "description": "Assigned to FST - Inbound",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 13,
+                "name": "Assigned to FST - Outbound",
+                "code": "AFO",
+                "description": "Assigned to FST - Outbound",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 14,
+                "name": "Begin Journey",
+                "code": "BJY",
+                "description": "Begin Journey",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 15,
+                "name": "Submitted To FD",
+                "code": "SFD",
+                "description": "Submitted To FD",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            },
+            {
+                "id": 16,
+                "name": "Collected At FD",
+                "code": "CFD",
+                "description": "Collected At FD",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:48:23.000Z",
+                "modified_at": "2021-10-26T08:48:23.000Z"
+            }
+        ],
+        "mst_warrenty_status": [
+            {
+                "id": 1,
+                "name": "In Warrenty",
+                "code": "IW",
+                "description": "In Warrenty",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:26:04.000Z",
+                "modified_at": "2021-10-26T08:26:04.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Out Of Warrenty",
+                "code": "OOW",
+                "description": "Out Of Warrenty",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:26:04.000Z",
+                "modified_at": "2021-10-26T08:26:04.000Z"
+            }
+        ],
+        "mst_platform": [
+            {
+                "id": 1,
+                "name": "FST",
+                "code": "FST",
+                "description": "Field technician will go to customer's house",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:37:12.000Z",
+                "modified_at": "2021-10-26T08:37:12.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Front Desk",
+                "code": "FD",
+                "description": "Customer will come to service center to submit his device",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:37:12.000Z",
+                "modified_at": "2021-10-26T08:37:12.000Z"
+            }
+        ],
+        "mst_product": [
+            {
+                "id": 1,
+                "name": "Nexus 2",
+                "code": "NX2",
+                "mst_oem_id": 1,
+                "is_active": 1,
+                "created_at": "2021-10-29T19:27:21.000Z",
+                "modified_at": "2021-10-29T19:27:21.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Pixel",
+                "code": "gl",
+                "mst_oem_id": 1,
+                "is_active": 1,
+                "created_at": "2022-06-10T07:16:57.000Z",
+                "modified_at": "2022-08-18T16:55:02.000Z"
+            },
+            {
+                "id": 3,
+                "name": "IPhone",
+                "code": "ip",
+                "mst_oem_id": 2,
+                "is_active": 1,
+                "created_at": "2022-08-18T16:56:15.000Z",
+                "modified_at": "2022-08-18T16:57:20.000Z"
+            }
+        ],
+        "mst_role": [
+            {
+                "id": 1,
+                "name": "Engineer",
+                "code": "ENG",
+                "description": "Engineer",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:39:48.000Z",
+                "modified_at": "2021-10-26T08:39:48.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Supervisor",
+                "code": "SPV",
+                "description": "Supervisor",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:39:48.000Z",
+                "modified_at": "2021-10-26T08:39:48.000Z"
+            },
+            {
+                "id": 3,
+                "name": "FST",
+                "code": "FST",
+                "description": "Field Service Technician",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:39:48.000Z",
+                "modified_at": "2021-10-26T08:39:48.000Z"
+            },
+            {
+                "id": 4,
+                "name": "QC",
+                "code": "QC",
+                "description": "Quality check",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:39:48.000Z",
+                "modified_at": "2021-10-26T08:39:48.000Z"
+            },
+            {
+                "id": 5,
+                "name": "FrontDesk",
+                "code": "FD",
+                "description": "Front Desk",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:39:48.000Z",
+                "modified_at": "2022-01-04T15:16:54.000Z"
+            },
+            {
+                "id": 6,
+                "name": "Callcenter",
+                "code": "CC",
+                "description": "Callcenter",
+                "is_active": 1,
+                "created_at": "2021-10-26T08:39:48.000Z",
+                "modified_at": "2022-01-04T15:16:54.000Z"
+            }
+        ],
+        "mst_service_location": [
+            {
+                "id": 1,
+                "name": "Service Center A",
+                "code": "B2X",
+                "mobile_number": "8877667788",
+                "email_id": "servicecentera@gmail.com",
+                "address": "M.G. Road, Andheri(E)",
+                "pincode": 400075,
+                "country": "India",
+                "gstin": "22AAAAA0000A1",
+                "is_repair_line_engineer": 1,
+                "is_active": 1,
+                "created_at": "2021-10-26T08:30:50.000Z",
+                "modified_at": "2022-04-03T16:09:58.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Service Center B",
+                "code": "SFY",
+                "mobile_number": "8877667789",
+                "email_id": "servicecenterb@gmail.com",
+                "address": "M.G. Road, Andheri(E)",
+                "pincode": 400606,
+                "country": "India",
+                "gstin": "22AAAAA0000B2",
+                "is_repair_line_engineer": 1,
+                "is_active": 1,
+                "created_at": "2021-10-26T08:30:50.000Z",
+                "modified_at": "2022-04-03T16:09:59.000Z"
+            },
+            {
+                "id": 3,
+                "name": "Service Centre C",
+                "code": "PKC",
+                "mobile_number": "8877667790",
+                "email_id": "servicecenterpk@gmail.com",
+                "address": "Srinagar,Kashmir(A)",
+                "pincode": 577432,
+                "country": "India",
+                "gstin": "22AAAAA0000C3",
+                "is_repair_line_engineer": 1,
+                "is_active": 1,
+                "created_at": "2022-12-13T11:05:47.000Z",
+                "modified_at": "2022-12-13T11:05:47.000Z"
+            }
+        ],
+        "mst_problem": [
+            {
+                "id": 1,
+                "name": "Smartphone is running slow",
+                "created_at": "2022-01-08T10:07:18.000Z",
+                "modified_at": "2022-01-08T10:07:18.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Poor battery life",
+                "created_at": "2022-01-08T10:07:18.000Z",
+                "modified_at": "2022-01-08T10:07:18.000Z"
+            },
+            {
+                "id": 3,
+                "name": "Phone or app crashes",
+                "created_at": "2022-01-08T10:07:18.000Z",
+                "modified_at": "2022-01-08T10:07:18.000Z"
+            },
+            {
+                "id": 4,
+                "name": "Sync issue",
+                "created_at": "2022-01-08T10:07:18.000Z",
+                "modified_at": "2022-01-08T10:07:18.000Z"
+            },
+            {
+                "id": 5,
+                "name": "MicroSD card is not working on your phone",
+                "created_at": "2022-01-08T10:07:18.000Z",
+                "modified_at": "2022-01-08T10:07:18.000Z"
+            },
+            {
+                "id": 6,
+                "name": "Overheating",
+                "created_at": "2022-01-08T10:07:18.000Z",
+                "modified_at": "2022-01-08T10:07:18.000Z"
+            },
+            {
+                "id": 7,
+                "name": "Connecting problem with Bluetooth, Wifi, Cellular network",
+                "created_at": "2022-01-08T10:07:19.000Z",
+                "modified_at": "2022-01-08T10:07:19.000Z"
+            },
+            {
+                "id": 8,
+                "name": "Cracked screen",
+                "created_at": "2022-01-08T10:07:19.000Z",
+                "modified_at": "2022-01-08T10:07:19.000Z"
+            },
+            {
+                "id": 9,
+                "name": "Other",
+                "created_at": "2022-01-08T10:07:19.000Z",
+                "modified_at": "2022-01-08T10:07:19.000Z"
+            },
+            {
+                "id": 10,
+                "name": "Camera issue",
+                "created_at": "2022-06-13T15:01:02.000Z",
+                "modified_at": "2022-06-13T15:01:02.000Z"
+            },
+            {
+                "id": 11,
+                "name": "Charger Not Working",
+                "created_at": "2022-08-14T12:38:04.000Z",
+                "modified_at": "2022-08-14T12:38:04.000Z"
+            },
+            {
+                "id": 12,
+                "name": " Software Booting Issue ",
+                "created_at": "2022-08-14T13:03:08.000Z",
+                "modified_at": "2022-08-14T13:03:08.000Z"
+            },
+            {
+                "id": 15,
+                "name": "Head Phone Jack not working",
+                "created_at": "2022-06-16T15:22:18.000Z",
+                "modified_at": "2022-06-16T15:22:18.000Z"
+            },
+            {
+                "id": 16,
+                "name": "Head Phone issue",
+                "created_at": "2022-06-16T15:27:47.000Z",
+                "modified_at": "2022-06-16T15:27:47.000Z"
+            },
+            {
+                "id": 17,
+                "name": "Random Problem",
+                "created_at": "2022-07-11T02:56:01.000Z",
+                "modified_at": "2022-07-11T02:56:01.000Z"
+            },
+            {
+                "id": 19,
+                "name": "Front camera not working",
+                "created_at": "2022-07-13T17:50:54.000Z",
+                "modified_at": "2022-07-13T17:50:54.000Z"
+            },
+            {
+                "id": 20,
+                "name": "Battery issue",
+                "created_at": "2022-07-13T17:51:47.000Z",
+                "modified_at": "2022-07-13T17:51:47.000Z"
+            },
+            {
+                "id": 22,
+                "name": "Screen display issue",
+                "created_at": "2022-08-29T11:09:24.000Z",
+                "modified_at": "2022-08-29T11:09:24.000Z"
+            },
+            {
+                "id": 24,
+                "name": "Apps Not Downloading",
+                "created_at": "2022-08-29T12:10:34.000Z",
+                "modified_at": "2022-08-29T12:10:34.000Z"
+            },
+            {
+                "id": 26,
+                "name": "Unresponsive screen",
+                "created_at": "2022-09-19T10:03:08.000Z",
+                "modified_at": "2022-09-19T10:03:08.000Z"
+            },
+            {
+                "id": 27,
+                "name": "Blue Screen Error",
+                "created_at": "2022-12-13T11:01:48.000Z",
+                "modified_at": "2022-12-13T11:01:48.000Z"
+            },
+            {
+                "id": 28,
+                "name": "PK Test Prob1",
+                "created_at": "2022-12-19T20:42:09.000Z",
+                "modified_at": "2022-12-19T20:42:09.000Z"
+            },
+            {
+                "id": 29,
+                "name": "PK Test Prob1",
+                "created_at": "2022-12-19T20:42:09.000Z",
+                "modified_at": "2022-12-19T20:42:09.000Z"
+            }
+        ],
+        "map_fst_pincode": [
+            {
+                "pincode": 100011,
+                "mst_service_location_id": 1,
+                "mst_service_location_name": "Service Center A"
+            },
+            {
+                "pincode": 100012,
+                "mst_service_location_id": 1,
+                "mst_service_location_name": "Service Center A"
+            },
+            {
+                "pincode": 100013,
+                "mst_service_location_id": 1,
+                "mst_service_location_name": "Service Center A"
+            },
+            {
+                "pincode": 100014,
+                "mst_service_location_id": 1,
+                "mst_service_location_name": "Service Center A"
+            },
+            {
+                "pincode": 100015,
+                "mst_service_location_id": 1,
+                "mst_service_location_name": "Service Center A"
+            },
+            {
+                "pincode": 400065,
+                "mst_service_location_id": 1,
+                "mst_service_location_name": "Service Center A"
+            },
+            {
+                "pincode": 200011,
+                "mst_service_location_id": 2,
+                "mst_service_location_name": "Service Center B"
+            },
+            {
+                "pincode": 200012,
+                "mst_service_location_id": 2,
+                "mst_service_location_name": "Service Center B"
+            },
+            {
+                "pincode": 200013,
+                "mst_service_location_id": 2,
+                "mst_service_location_name": "Service Center B"
+            },
+            {
+                "pincode": 200014,
+                "mst_service_location_id": 2,
+                "mst_service_location_name": "Service Center B"
+            },
+            {
+                "pincode": 200015,
+                "mst_service_location_id": 2,
+                "mst_service_location_name": "Service Center B"
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="userDetailsAPITest" classname="com.api.tests.UserDetailsAPITest" time="0.084">
     <system-out><![CDATA[HTTP/1.1 200 OK
 X-DNS-Prefetch-Control: off
 X-Frame-Options: SAMEORIGIN
@@ -167,31 +806,31 @@ X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 438
-ETag: W/"1b6-cR2dclq1S8zJDBAsHCDA10lTBi4"
+Content-Length: 441
+ETag: W/"1b9-gwZ3q4NUFVwjUwUa8wJaXTtaK9Q"
 Vary: Accept-Encoding
-Date: Mon, 06 Jul 2026 07:26:56 GMT
+Date: Wed, 08 Jul 2026 07:15:28 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
     "message": "Success",
     "data": {
-        "id": 4,
-        "first_name": "fd",
-        "last_name": "fd",
-        "login_id": "iamfd",
+        "id": 2,
+        "first_name": "Mark",
+        "last_name": "zuk",
+        "login_id": "iameng",
         "mobile_number": "8899776655",
         "email_id": "mark@gmail.com",
         "password": "5f4dcc3b5aa765d61d8327deb882cf99",
         "reset_password_date": null,
         "lock_status": 0,
         "is_active": 1,
-        "mst_role_id": 5,
+        "mst_role_id": 1,
         "mst_service_location_id": 1,
         "created_at": "2021-11-03T08:06:23.000Z",
-        "modified_at": "2021-11-03T08:06:23.000Z",
-        "role_name": "FrontDesk",
+        "modified_at": "2021-12-20T07:42:00.000Z",
+        "role_name": "Engineer",
         "service_location": "Service Center A"
     }
 }
