@@ -13,7 +13,7 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 public class CountAPITest {
 	
 	
-	@Test
+	@Test(priority=0)
 	public void verifyCountAPIResponse() {
 		
 		given().
@@ -34,7 +34,7 @@ public class CountAPITest {
 		body(JsonSchemaValidator.matchesJsonSchemaInClasspath("jsonSchemaResponse/CountAPIResponseSchema-FD.json"));  //json Schema validation
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void countAPITest_MissingAuthToken() {
 		
 		given().

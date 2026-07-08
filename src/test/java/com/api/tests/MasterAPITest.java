@@ -12,7 +12,7 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 
 public class MasterAPITest {
 
-	@Test
+	@Test(priority=0)
 	public void masterAPITest() {
 		
 		RestAssured.given().
@@ -34,7 +34,7 @@ public class MasterAPITest {
 	}
 	
 	
-	@Test
+	@Test(priority=1)
 	public void invalidTokenMasterAPI() {
 		
 		RestAssured.given().baseUri(ConfigManager.getProperty("BASE_URI")).log().all().
