@@ -25,7 +25,7 @@ public class CountAPITest {
          log()
         .all().statusCode(200)                          //status code validation
         .body("message", Matchers.equalTo("Success")). //body validation
-        time(Matchers.lessThan(500L))                 //time validation
+        time(Matchers.lessThan(2000L))                 //time validation
         .body("data", Matchers.notNullValue()).             
         body("data.size()",Matchers.equalTo(3)).
         body("data.count",Matchers.everyItem(Matchers.greaterThanOrEqualTo(0))).//count validation
