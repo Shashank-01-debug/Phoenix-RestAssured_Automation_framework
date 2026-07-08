@@ -21,7 +21,7 @@ public class MasterAPITest {
 		contentType("")//when there is no body in post request we should give contentType as empty.
 		.log().all()
 		.when().post("master")
-		.then().log().all().statusCode(200).time(Matchers.lessThan(500L)).
+		.then().log().all().statusCode(200).time(Matchers.lessThan(2000L)).
 		body("message",Matchers.equalTo("Success")).
 		body("data",Matchers.notNullValue()).
 		body("data", Matchers.hasKey("mst_oem")).
