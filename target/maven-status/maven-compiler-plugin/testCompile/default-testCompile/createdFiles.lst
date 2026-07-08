@@ -1,0 +1,9 @@
+com\api\utils\ConfigManager_Old.class
+com\api\utils\ConfigManager.class
+com\api\tests\UserDetailsAPITest.class
+com\api\constants\Roles.class
+com\api\utils\AuthTokenProvider.class
+com\api\pojo\UserCredentials.class
+com\api\tests\CountAPITest.class
+com\api\tests\MasterAPITest.class
+com\api\tests\LoginAPITest.class

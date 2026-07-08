@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.214" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="5.005" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -10,12 +10,13 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\shashank\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\shashank\AppData\Local\Temp\surefire5553099678629904360\surefirebooter-20260708124520972_3.jar C:\Users\shashank\AppData\Local\Temp\surefire5553099678629904360 2026-07-08T12-45-20_632-jvmRun1 surefire-20260708124520972_1tmp surefire_0-20260708124520972_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\shashank\AppData\Local\Temp\surefire9131168711295988482\surefirebooter-20260708153203416_3.jar C:\Users\shashank\AppData\Local\Temp\surefire9131168711295988482 2026-07-08T15-32-02_071-jvmRun1 surefire-20260708153203416_1tmp surefire_0-20260708153203416_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\shashank\eclipse-workspace\API Testing_Rest\PhoenixRestAssuredFramework\target\test-classes;C:\Users\shashank\eclipse-workspace\API Testing_Rest\PhoenixRestAssuredFramework\target\classes;C:\Users\shashank\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\shashank\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\shashank\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\shashank\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shashank\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shashank\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shashank\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shashank\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shashank\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shashank\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shashank\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\shashank\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\shashank\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\shashank\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\shashank\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\shashank\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\shashank\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\shashank\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\shashank\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\shashank\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\shashank\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\shashank\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\shashank\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\shashank\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\shashank\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shashank\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\shashank\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\shashank\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\shashank\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shashank\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\shashank\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\shashank\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\shashank\.m2\repository\io\rest-assured\spring-mock-mvc\5.5.5\spring-mock-mvc-5.5.5.jar;C:\Users\shashank\.m2\repository\io\rest-assured\spring-commons\5.5.5\spring-commons-5.5.5.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-test\5.1.13.RELEASE\spring-test-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-core\5.1.13.RELEASE\spring-core-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-jcl\5.1.13.RELEASE\spring-jcl-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-webmvc\5.1.13.RELEASE\spring-webmvc-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-aop\5.1.13.RELEASE\spring-aop-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-beans\5.1.13.RELEASE\spring-beans-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-expression\5.1.13.RELEASE\spring-expression-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-web\5.1.13.RELEASE\spring-web-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\io\rest-assured\spring-web-test-client\5.5.5\spring-web-test-client-5.5.5.jar;C:\Users\shashank\.m2\repository\org\springframework\spring-context\5.1.13.RELEASE\spring-context-5.1.13.RELEASE.jar;C:\Users\shashank\.m2\repository\org\synchronoss\cloud\nio-multipart-parser\1.1.0\nio-multipart-parser-1.1.0.jar;C:\Users\shashank\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\shashank\.m2\repository\org\synchronoss\cloud\nio-stream-storage\1.1.3\nio-stream-storage-1.1.3.jar;C:\Users\shashank\.m2\repository\io\rest-assured\scala-support\5.5.5\scala-support-5.5.5.jar;C:\Users\shashank\.m2\repository\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar;C:\Users\shashank\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\shashank\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\shashank\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\shashank\.m2\repository\io\rest-assured\kotlin-extensions\5.5.5\kotlin-extensions-5.5.5.jar;C:\Users\shashank\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\2.1.21\kotlin-stdlib-jdk8-2.1.21.jar;C:\Users\shashank\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\2.1.21\kotlin-stdlib-2.1.21.jar;C:\Users\shashank\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\shashank\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\2.1.21\kotlin-stdlib-jdk7-2.1.21.jar;C:\Users\shashank\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\shashank\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\shashank\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\shashank\AppData\Local\Temp\surefire5553099678629904360\surefirebooter-20260708124520972_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shashank\AppData\Local\Temp\surefire9131168711295988482\surefirebooter-20260708153203416_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+9-LTS"/>
@@ -49,6 +50,7 @@
     <property name="user.dir" value="C:\Users\shashank\eclipse-workspace\API Testing_Rest\PhoenixRestAssuredFramework"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="qa"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Users\shashank\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/shashank/Downloads/eclipse-java-2024-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530/jre/bin/server;C:/Users/shashank/Downloads/eclipse-java-2024-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530/jre/bin;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\shashank\Downloads\apache-maven-3.9.9\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\nodejs\;C:\Users\shashank\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;;C:\Users\shashank\AppData\Roaming\npm;C:\Users\shashank\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shashank\AppData\Local\GitHubDesktop\bin;C:\Users\shashank\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse;;."/>
@@ -59,76 +61,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="countAPITest_MissingAuthToken" classname="com.api.tests.CountAPITest" time="0.608">
-    <system-out><![CDATA[Headers:		Accept=*/*
-Body:			<none>
-Request URI:	http://64.227.160.186:9000/v1/dashboard/count
-HTTP/1.1 401 Unauthorized
-X-DNS-Prefetch-Control: off
-X-Frame-Options: SAMEORIGIN
-Strict-Transport-Security: max-age=15552000; includeSubDomains
-X-Download-Options: noopen
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-Access-Control-Allow-Origin: *
-Content-Type: text/html; charset=utf-8
-Content-Length: 17
-ETag: W/"11-FLPMxCfH56IlIYLRaOTETEMIwHM"
-Vary: Accept-Encoding
-Date: Wed, 08 Jul 2026 07:15:26 GMT
-Connection: keep-alive
-Keep-Alive: timeout=5
-
-<html>
-  <body>401: Unauthorized</body>
-</html>
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyCountAPIResponse" classname="com.api.tests.CountAPITest" time="0.55">
-    <system-out><![CDATA[HTTP/1.1 200 OK
-X-DNS-Prefetch-Control: off
-X-Frame-Options: SAMEORIGIN
-Strict-Transport-Security: max-age=15552000; includeSubDomains
-X-Download-Options: noopen
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-Access-Control-Allow-Origin: *
-Content-Type: application/json; charset=utf-8
-Content-Length: 242
-ETag: W/"f2-nbwuHcNpmowYDD9iHoBdD3rhjRU"
-Vary: Accept-Encoding
-Date: Wed, 08 Jul 2026 07:15:27 GMT
-Connection: keep-alive
-Keep-Alive: timeout=5
-
-{
-    "message": "Success",
-    "data": [
-        {
-            "label": "Pending for delivery",
-            "key": "pending_for_delivery",
-            "count": 0
-        },
-        {
-            "label": "Created today",
-            "key": "created_today",
-            "count": 398
-        },
-        {
-            "label": "Pending for FST assignment",
-            "key": "pending_fst_assignment",
-            "count": 0
-        }
-    ]
-}
-]]></system-out>
-  </testcase>
-  <testcase name="loginAPITest" classname="com.api.tests.LoginAPITest" time="0.153">
-    <system-out><![CDATA[Body:
+  <testcase name="loginAPITest" classname="com.api.tests.LoginAPITest" time="0.455">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\shashank\eclipse-workspace\API Testing_Rest\PhoenixRestAssuredFramework\testng.xml] otherwise TestNG may fail or not work as expected.
+Body:
 {
     "username": "iamfd",
     "password": "password"
@@ -147,34 +82,107 @@ X-XSS-Protection: 1; mode=block
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 690
-ETag: W/"2b2-cM5nrtJO7ccnctn/aWVwXx3sZww"
+ETag: W/"2b2-eezPtqt3dJ+iBx52S8htpPxmgIY"
 Vary: Accept-Encoding
-Date: Wed, 08 Jul 2026 07:15:27 GMT
+Date: Wed, 08 Jul 2026 10:02:08 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
     "message": "Success",
     "data": {
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZmlyc3RfbmFtZSI6ImZkIiwibGFzdF9uYW1lIjoiZmQiLCJsb2dpbl9pZCI6ImlhbWZkIiwibW9iaWxlX251bWJlciI6Ijg4OTk3NzY2NTUiLCJlbWFpbF9pZCI6Im1hcmtAZ21haWwuY29tIiwicGFzc3dvcmQiOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJlc2V0X3Bhc3N3b3JkX2RhdGUiOm51bGwsImxvY2tfc3RhdHVzIjowLCJpc19hY3RpdmUiOjEsIm1zdF9yb2xlX2lkIjo1LCJtc3Rfc2VydmljZV9sb2NhdGlvbl9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDNUMDg6MDY6MjMuMDAwWiIsIm1vZGlmaWVkX2F0IjoiMjAyMS0xMS0wM1QwODowNjoyMy4wMDBaIiwicm9sZV9uYW1lIjoiRnJvbnREZXNrIiwic2VydmljZV9sb2NhdGlvbiI6IlNlcnZpY2UgQ2VudGVyIEEiLCJpYXQiOjE3ODM0OTQ5Mjd9.OXvyzP7_hyQC2oDtEXFPKovodj56PZrGlz5zc6jsWbQ"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZmlyc3RfbmFtZSI6ImZkIiwibGFzdF9uYW1lIjoiZmQiLCJsb2dpbl9pZCI6ImlhbWZkIiwibW9iaWxlX251bWJlciI6Ijg4OTk3NzY2NTUiLCJlbWFpbF9pZCI6Im1hcmtAZ21haWwuY29tIiwicGFzc3dvcmQiOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJlc2V0X3Bhc3N3b3JkX2RhdGUiOm51bGwsImxvY2tfc3RhdHVzIjowLCJpc19hY3RpdmUiOjEsIm1zdF9yb2xlX2lkIjo1LCJtc3Rfc2VydmljZV9sb2NhdGlvbl9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDNUMDg6MDY6MjMuMDAwWiIsIm1vZGlmaWVkX2F0IjoiMjAyMS0xMS0wM1QwODowNjoyMy4wMDBaIiwicm9sZV9uYW1lIjoiRnJvbnREZXNrIiwic2VydmljZV9sb2NhdGlvbiI6IlNlcnZpY2UgQ2VudGVyIEEiLCJpYXQiOjE3ODM1MDQ5Mjh9.XHVIA6fEIjg1RlWkh4tOCbaWq5Qyf3sZxunw5vql9Yk"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="userDetailsAPITest" classname="com.api.tests.UserDetailsAPITest" time="0.082">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 441
+ETag: W/"1b9-gwZ3q4NUFVwjUwUa8wJaXTtaK9Q"
+Vary: Accept-Encoding
+Date: Wed, 08 Jul 2026 10:02:08 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "message": "Success",
+    "data": {
+        "id": 2,
+        "first_name": "Mark",
+        "last_name": "zuk",
+        "login_id": "iameng",
+        "mobile_number": "8899776655",
+        "email_id": "mark@gmail.com",
+        "password": "5f4dcc3b5aa765d61d8327deb882cf99",
+        "reset_password_date": null,
+        "lock_status": 0,
+        "is_active": 1,
+        "mst_role_id": 1,
+        "mst_service_location_id": 1,
+        "created_at": "2021-11-03T08:06:23.000Z",
+        "modified_at": "2021-12-20T07:42:00.000Z",
+        "role_name": "Engineer",
+        "service_location": "Service Center A"
     }
 }
 ]]></system-out>
   </testcase>
-  <testcase name="invalidTokenMasterAPI" classname="com.api.tests.MasterAPITest" time="0.064">
-    <system-out><![CDATA[Request method:	POST
-Request URI:	http://64.227.160.186:9000/v1/master
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=
-				Accept=*/*
-				Content-Type=; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
+  <testcase name="verifyCountAPIResponse" classname="com.api.tests.CountAPITest" time="0.28">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 242
+ETag: W/"f2-hvlI+T7dOdC7XkG8Uea/k3LNKnY"
+Vary: Accept-Encoding
+Date: Wed, 08 Jul 2026 10:02:08 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "message": "Success",
+    "data": [
+        {
+            "label": "Pending for delivery",
+            "key": "pending_for_delivery",
+            "count": 0
+        },
+        {
+            "label": "Created today",
+            "key": "created_today",
+            "count": 625
+        },
+        {
+            "label": "Pending for FST assignment",
+            "key": "pending_fst_assignment",
+            "count": 0
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="countAPITest_MissingAuthToken" classname="com.api.tests.CountAPITest" time="0.459">
+    <system-out><![CDATA[Headers:		Accept=*/*
 Body:			<none>
+Request URI:	http://64.227.160.186:9000/v1/dashboard/count
 HTTP/1.1 401 Unauthorized
 X-DNS-Prefetch-Control: off
 X-Frame-Options: SAMEORIGIN
@@ -187,7 +195,7 @@ Content-Type: text/html; charset=utf-8
 Content-Length: 17
 ETag: W/"11-FLPMxCfH56IlIYLRaOTETEMIwHM"
 Vary: Accept-Encoding
-Date: Wed, 08 Jul 2026 07:15:27 GMT
+Date: Wed, 08 Jul 2026 10:02:09 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
@@ -196,7 +204,7 @@ Keep-Alive: timeout=5
 </html>
 ]]></system-out>
   </testcase>
-  <testcase name="masterAPITest" classname="com.api.tests.MasterAPITest" time="0.442">
+  <testcase name="masterAPITest" classname="com.api.tests.MasterAPITest" time="0.422">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://64.227.160.186:9000/v1/master
 Proxy:			<none>
@@ -204,7 +212,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZmlyc3RfbmFtZSI6ImZkIiwibGFzdF9uYW1lIjoiZmQiLCJsb2dpbl9pZCI6ImlhbWZkIiwibW9iaWxlX251bWJlciI6Ijg4OTk3NzY2NTUiLCJlbWFpbF9pZCI6Im1hcmtAZ21haWwuY29tIiwicGFzc3dvcmQiOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJlc2V0X3Bhc3N3b3JkX2RhdGUiOm51bGwsImxvY2tfc3RhdHVzIjowLCJpc19hY3RpdmUiOjEsIm1zdF9yb2xlX2lkIjo1LCJtc3Rfc2VydmljZV9sb2NhdGlvbl9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDNUMDg6MDY6MjMuMDAwWiIsIm1vZGlmaWVkX2F0IjoiMjAyMS0xMS0wM1QwODowNjoyMy4wMDBaIiwicm9sZV9uYW1lIjoiRnJvbnREZXNrIiwic2VydmljZV9sb2NhdGlvbiI6IlNlcnZpY2UgQ2VudGVyIEEiLCJpYXQiOjE3ODM0OTQ5Mjd9.OXvyzP7_hyQC2oDtEXFPKovodj56PZrGlz5zc6jsWbQ
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZmlyc3RfbmFtZSI6ImZkIiwibGFzdF9uYW1lIjoiZmQiLCJsb2dpbl9pZCI6ImlhbWZkIiwibW9iaWxlX251bWJlciI6Ijg4OTk3NzY2NTUiLCJlbWFpbF9pZCI6Im1hcmtAZ21haWwuY29tIiwicGFzc3dvcmQiOiI1ZjRkY2MzYjVhYTc2NWQ2MWQ4MzI3ZGViODgyY2Y5OSIsInJlc2V0X3Bhc3N3b3JkX2RhdGUiOm51bGwsImxvY2tfc3RhdHVzIjowLCJpc19hY3RpdmUiOjEsIm1zdF9yb2xlX2lkIjo1LCJtc3Rfc2VydmljZV9sb2NhdGlvbl9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDNUMDg6MDY6MjMuMDAwWiIsIm1vZGlmaWVkX2F0IjoiMjAyMS0xMS0wM1QwODowNjoyMy4wMDBaIiwicm9sZV9uYW1lIjoiRnJvbnREZXNrIiwic2VydmljZV9sb2NhdGlvbiI6IlNlcnZpY2UgQ2VudGVyIEEiLCJpYXQiOjE3ODM1MDQ5Mjl9.zzQGDIfNPz2a9K9g4dc2aLkG7l5jUSKQQ-BfNit4Gds
 				Accept=*/*
 				Content-Type=; charset=ISO-8859-1
 Cookies:		<none>
@@ -222,7 +230,7 @@ Content-Type: application/json; charset=utf-8
 ETag: W/"2a1c-v2lPE1pRCSNwLh+/V8ccxPYHAHM"
 Vary: Accept-Encoding
 Content-Encoding: gzip
-Date: Wed, 08 Jul 2026 07:15:27 GMT
+Date: Wed, 08 Jul 2026 10:02:09 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked
@@ -796,8 +804,21 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="userDetailsAPITest" classname="com.api.tests.UserDetailsAPITest" time="0.084">
-    <system-out><![CDATA[HTTP/1.1 200 OK
+  <testcase name="invalidTokenMasterAPI" classname="com.api.tests.MasterAPITest" time="0.064">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://64.227.160.186:9000/v1/master
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=
+				Accept=*/*
+				Content-Type=; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
 X-DNS-Prefetch-Control: off
 X-Frame-Options: SAMEORIGIN
 Strict-Transport-Security: max-age=15552000; includeSubDomains
@@ -805,35 +826,17 @@ X-Download-Options: noopen
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Access-Control-Allow-Origin: *
-Content-Type: application/json; charset=utf-8
-Content-Length: 441
-ETag: W/"1b9-gwZ3q4NUFVwjUwUa8wJaXTtaK9Q"
+Content-Type: text/html; charset=utf-8
+Content-Length: 17
+ETag: W/"11-FLPMxCfH56IlIYLRaOTETEMIwHM"
 Vary: Accept-Encoding
-Date: Wed, 08 Jul 2026 07:15:28 GMT
+Date: Wed, 08 Jul 2026 10:02:09 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
-{
-    "message": "Success",
-    "data": {
-        "id": 2,
-        "first_name": "Mark",
-        "last_name": "zuk",
-        "login_id": "iameng",
-        "mobile_number": "8899776655",
-        "email_id": "mark@gmail.com",
-        "password": "5f4dcc3b5aa765d61d8327deb882cf99",
-        "reset_password_date": null,
-        "lock_status": 0,
-        "is_active": 1,
-        "mst_role_id": 1,
-        "mst_service_location_id": 1,
-        "created_at": "2021-11-03T08:06:23.000Z",
-        "modified_at": "2021-12-20T07:42:00.000Z",
-        "role_name": "Engineer",
-        "service_location": "Service Center A"
-    }
-}
+<html>
+  <body>401: Unauthorized</body>
+</html>
 ]]></system-out>
   </testcase>
 </testsuite>
