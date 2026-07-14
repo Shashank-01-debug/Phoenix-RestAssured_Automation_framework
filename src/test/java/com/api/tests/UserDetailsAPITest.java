@@ -7,6 +7,8 @@ import static com.api.utils.AuthTokenProvider.*;
 
 import com.api.constants.Roles;
 import com.api.utils.ConfigManager;
+import com.api.utils.SpecUtil;
+
 import static com.api.utils.ConfigManager.*;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
@@ -17,21 +19,17 @@ import java.io.IOException;
 
 public class UserDetailsAPITest  {
 	
-	Header authHeader = new Header("Authorization",getToken(Roles.ENG));
+	
 	
 	@Test
 	public void userDetailsAPITest() {
 		
-		given().
-		baseUri(ConfigManager.getProperty("BASE_URI")).
-		header(authHeader).
-		accept(ContentType.JSON)
+		given().spec(SpecUtil.requestSpecWithAuth(Roles.FD))
 		.when().
 		get("userdetails").
 		then().
-		log().all().
-		statusCode(200).
-		time(Matchers.lessThan(3000L));
+		spec(SpecUtil.responseSpec());
+		
 		
 		
 			
