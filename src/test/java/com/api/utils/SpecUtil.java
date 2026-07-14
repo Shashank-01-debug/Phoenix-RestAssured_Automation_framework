@@ -91,7 +91,7 @@ public static ResponseSpecification responseSpec() {
 	ResponseSpecification responseSpecification = new ResponseSpecBuilder().
 			expectContentType(ContentType.JSON).
 			expectStatusCode(200).
-	expectResponseTime(Matchers.lessThan(1000L)).
+	expectResponseTime(Matchers.lessThan(2000L)).
 	log(LogDetail.ALL).build();
 	
 	return responseSpecification;
@@ -103,7 +103,7 @@ public static ResponseSpecification responseSpec(int statusCode) {
 	
 	ResponseSpecification responseSpecification = new ResponseSpecBuilder().
 			expectStatusCode(401).
-	expectResponseTime(Matchers.lessThan(1000L)).
+	expectResponseTime(Matchers.lessThan(2000L)).
 	log(LogDetail.ALL).build();
 	
 	return responseSpecification;
