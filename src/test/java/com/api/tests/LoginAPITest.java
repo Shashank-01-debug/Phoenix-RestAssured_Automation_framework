@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import com.api.pojo.UserCredentials;
 import com.api.utils.ConfigManager;
+import com.api.utils.SpecUtil;
 
 import static com.api.utils.ConfigManager.*;
 
@@ -22,23 +23,14 @@ public class LoginAPITest  {
 	@Test
 	public void loginAPITest() {
 		
-		given().baseUri(ConfigManager.getProperty("BASE_URI")).
-		contentType(ContentType.JSON).
-		accept(ContentType.JSON).
-		body(usercreds).
-		log().body().
-		log().headers().
-		log().uri().
-		log().method().
+		given().spec(SpecUtil.requestSpec(usercreds)).
 		when().
 		post("login").
-		then().
-		log().all().
-		statusCode(200).
-		time(Matchers.lessThan(1000L)).
+		then().spec(SpecUtil.responseSpec()).
 		body("message", Matchers.equalTo("Success")).
 		and()
-	    .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("jsonSchemaResponse/loginResponseSchema.json"));
+	    .body(JsonSchemaValidator.matchesJsonSchemaInClasspath
+	    		("jsonSchemaResponse/loginResponseSchema.json"));
 			
 	}
 
