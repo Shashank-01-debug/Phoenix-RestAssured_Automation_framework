@@ -1,0 +1,181 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome6",
+    "definitions": {
+        "Welcome6": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "mst_service_location_id": {
+                    "type": "integer"
+                },
+                "mst_platform_id": {
+                    "type": "integer"
+                },
+                "mst_warrenty_status_id": {
+                    "type": "integer"
+                },
+                "mst_oem_id": {
+                    "type": "integer"
+                },
+                "customer": {
+                    "$ref": "#/definitions/Customer"
+                },
+                "customer_address": {
+                    "$ref": "#/definitions/CustomerAddress"
+                },
+                "customer_product": {
+                    "$ref": "#/definitions/CustomerProduct"
+                },
+                "problems": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Problem"
+                    }
+                }
+            },
+            "required": [
+                "customer",
+                "customer_address",
+                "customer_product",
+                "mst_oem_id",
+                "mst_platform_id",
+                "mst_service_location_id",
+                "mst_warrenty_status_id",
+                "problems"
+            ],
+            "title": "Welcome6"
+        },
+        "Customer": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "first_name": {
+                    "type": "string"
+                },
+                "last_name": {
+                    "type": "string"
+                },
+                "mobile_number": {
+                    "type": "string"
+                },
+                "mobile_number_alt": {
+                    "type": "string"
+                },
+                "email_id": {
+                    "type": "string"
+                },
+                "email_id_alt": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "email_id",
+                "email_id_alt",
+                "first_name",
+                "last_name",
+                "mobile_number",
+                "mobile_number_alt"
+            ],
+            "title": "Customer"
+        },
+        "CustomerAddress": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "flat_number": {
+                    "type": "string"
+                },
+                "apartment_name": {
+                    "type": "string"
+                },
+                "street_name": {
+                    "type": "string"
+                },
+                "landmark": {
+                    "type": "string"
+                },
+                "area": {
+                    "type": "string"
+                },
+                "pincode": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "apartment_name",
+                "area",
+                "country",
+                "flat_number",
+                "landmark",
+                "pincode",
+                "state",
+                "street_name"
+            ],
+            "title": "CustomerAddress"
+        },
+        "CustomerProduct": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "dop": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "serial_number": {
+                    "type": "string"
+                },
+                "imei1": {
+                    "type": "string"
+                },
+                "imei2": {
+                    "type": "string"
+                },
+                "popurl": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "product_id": {
+                    "type": "integer"
+                },
+                "mst_model_id": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "dop",
+                "imei1",
+                "imei2",
+                "mst_model_id",
+                "popurl",
+                "product_id",
+                "serial_number"
+            ],
+            "title": "CustomerProduct"
+        },
+        "Problem": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "remark": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "remark"
+            ],
+            "title": "Problem"
+        }
+    }
+}
